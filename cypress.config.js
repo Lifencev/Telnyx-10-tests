@@ -15,11 +15,8 @@ module.exports = defineConfig({
     viewportHeight: 1080,
     chromeWebSecurity: false,
 
-    reporter: 'cypress-mochawesome-reporter',
-
     setupNodeEvents(on, config) {
       // implement node event listeners here
-      require('cypress-mochawesome-reporter/plugin')(on);
     },
 
     env: {
