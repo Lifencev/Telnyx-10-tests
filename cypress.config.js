@@ -2,9 +2,9 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
 
-  projectId: "dysivy",
-
   e2e: {
+
+    projectId: "dysivy",
 
     browser: 'chrome',
     baseUrl: 'https://telnyx.com',
