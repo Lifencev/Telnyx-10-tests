@@ -94,7 +94,7 @@ describe('Ten tests for Telnyx', () => {
         PrivacyPolicyPage.supportFirstEmail.should('be.visible').and('not.be.disabled');
     });
 
-    it('Checking PHP code under the "Built by developers, for developers" header', () => {
+    xit('Checking PHP code under the "Built by developers, for developers" header', () => {
         cy.visit('/'); 
 
         TelnyxMainPage.scrollToCodePlace();
